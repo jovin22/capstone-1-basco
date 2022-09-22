@@ -3,19 +3,23 @@
 <head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!--<link rel="stylesheet" type="text/css" href=".index.css">-->
+	<link rel="stylesheet" href="./index.css">
 	<title>Capstone 1</title>
 </head>
 
 <body>
 
 	<!--header-->
-		<div class="container">
+		<div class="container-fluid">
 		<nav class="navbar navbar-expand-xl navbar-light">
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand" href="index.html">
       <img src="file:///C:/Users/IKAY/batch-221/Capstone-1-basco/cropped-JB-logo-transparent.webp" alt="" width="30" height="24">
     </a>
 
@@ -25,10 +29,16 @@
      <div class="collapse navbar-collapse" id="toggleMobileMenu">
       <ul class="navbar-nav ms-auto text-center">
         <li>
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Home</a>
         </li>
         <li>
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Feature</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Photo</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">About</a>
         </li>
       </ul>
 
@@ -37,73 +47,274 @@
 </nav>
 </div>
 
-<!--about me-->
-<div class="container">
-	<div class="row">
-	<div class="col">
-<div class="card card-expand-md ms-auto" style="width: 18rem;">
-  <img src="P_20200909_174720_BF_p.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+<section id="bg-image">
+ 
+</section>
+
+<section id="basco">
+  <div class="container">
+    <div class="row justify-content-evenly">
+      <div class="col-lg-6">
+  <img class="basjov" src="P_20200909_174720_BF_p.jpg">
 </div>
 
-<!--educ-->
-<div class="col">
+<div class="col-lg-6 text-center p-6">
+<p>I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen. I like to see the sunrise in the morning, I like to see the moonlight at night; I like to feel the music flowing on my face, I like to smell the wind coming from the ocean. I like to look at the clouds in the sky with a blank mind, I like to do thought experiment when I cannot sleep in the middle of the night. I like flowers in spring, rain in summer, leaves in autumn, and snow in winter. I like to sleep early, I like to get up late; I like to be alone, I like to be surrounded by people. I like country’s peace, I like metropolis’ noise; I like the beautiful west lake in Hangzhou, I like the flat cornfield in Champaign. I like delicious food and comfortable shoes; I like good books and romantic movies. I like the land and the nature, I like people. And, I like to laugh.</p>
+</div>
+</div>
+  
+
+  </div>
+
+</section>
+
+<section>
+  <div class="container">
+    <div class="row justify-content-evenly">
+      <div class="col-lg-6">
 <div class="accordion" id="jovin">
 <div class="accordion-item">
   <h2 class="accordion-header" id="headerOne">
-    <button class="accordion-button" type="button" data-bs-toogle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Educational Background
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Educational Background
     </button>
   </h2>
 
-
-<!--<div class="collapse" id="elem">-->
   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headerOne" data-bs-parent="#jovin">
     <div class="accordion-body">
-<div class="card border-primary mb-3" style="max-width: auto;">
-  <div class="card-header">Header</div>
+      <div id="carouselOne" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+<div class="card border-primary mb-3" id="card-width">
+  <div class="card-header">Primary</div>
   <div class="card-body text-primary">
-    <h5 class="card-title">Primary card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">Elementary</h5>
+    <p class="card-text">Comembo Elementary school.</p>
   </div>
 </div>
 </div>
 
+<div class="carousel-item">
+<div class="card border-primary mb-3" id="card-width">
+  <div class="card-header">Secondary</div>
+  <div class="card-body text-primary">
+    <h5 class="card-title">High school</h5>
+    <p class="card-text">Benigno "ninoy" Aquino high school</p>
+  </div>
+</div>
+</div>
+
+<div class="carousel-item">
+<div class="card border-primary mb-3" id="card-width">
+  <div class="card-header">Tertiary</div>
+  <div class="card-body text-primary">
+    <h5 class="card-title">College</h5>
+    <p class="card-text">Asian Institute of computer studies</p>
+  </div>
+</div>
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselOne" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselOne" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+</div>
+</div>
+
 </div>
 </div>
 </div>
+</div>
 
+<!--character reference-->
 
-
-
-
-<!--<div class="col">-->
 <div class="accordion-item">
   <h2 class="accordion-header" id="headerTwo">
-    <button class="accordion-button" type="button" data-bs-toogle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Educational Background
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Experience
     </button>
   </h2>
+
 <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headerTwo" data-bs-parent="#jovin">
       <div class="accordion-body">
-<div class="card border-secondary mb-3" style="max-width: 18rem;">
-  <div class="card-header">Header</div>
+        
+        <div id="carouselTwo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item-active">
+
+<div class="card border-secondary mb-3" id="card-width">
+  <div class="card-header">1st job</div>
   <div class="card-body text-secondary">
-    <h5 class="card-title">Secondary card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">BPO</h5>
+    <p class="card-text">C3/Customer Contact Channel Philippines Ltd.</p>
   </div>
 </div>
 </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="headerThree">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Character Reference
+    </button>
+  </h2>
+<div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headerThree" data-bs-parent="#jovin">
+      <div class="accordion-body">
+
+
+<div class="card border-secondary mb-3" id="card-width">
+  <div class="card-header">Colleague</div>
+  <div class="card-body text-secondary">
+    <h5 class="card-title">Jester Loui Catacutan</h5>
+    <p class="card-text">C3/Customer Contact Channels Philippines Ltd.</p>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
 </div>
 </div>
 </div>
 
 
 
+
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="headerFour">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Contact Me
+    </button>
+  </h2>
+<div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headerFour" data-bs-parent="#jovin">
+      <div class="accordion-body">
+
+
+        <div class="container-lg-6 bg-primary">
+  <form class="row g-3 p-0 bg-primary">
+
+    <!--name-->
+    <div class="row justify-content-center text-center">
+      <div class="col-md-6 p-0">
+        <label for="first-name" class="form-label text-center">Name</label>
+    <input type="text" class="form-control" placeholder="YOUR NAME" aria-label="First name">
+  </div>
+        
+      </div>
+      <div class="row justify-content-center text-center">
+      <div class="col-md-6 p-0">
+        <label for="email-add" class="form-label text-center">Email address</label>
+    <input type="text" class="form-control" placeholder="name@example.com" aria-label="First name">
+  </div>
+        
+      </div>
+
+      <div class="row justify-content-center text-center">
+      <div class="col-md-6 p-0">
+        <label for="first-name" class="form-label text-center">Contact number</label>
+    <input type="text" class="form-control" placeholder="+63 900 000 0000" aria-label="First name">
+  </div>
+        
+      </div> 
+
+      <div class="row justify-content-center text-center">
+      <div class="col-md-6 p-0">
+        <label for="inputState" class="form-label">Concern</label>
+    <select id="inputState" class="form-select">
+      <option selected>Quotation...</option>
+      <option>...</option>
+    </select>
+
+      </div>
+    </div>
+
+    <div class="row justify-content-center text-center">
+      <div class="col-md-6 p-0">
+        <label for="floatingTextarea2">Message</label>
+        <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px"></textarea>
+  
+
+
+      </div>
+    </div>
+
+             <div class="col-12 text-center">
+    <button type="submit" class="btn btn-dark" data-bs-toogle="modal" data-bstarget="#examplemodal">send email
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Email send</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+
+    <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      
+    </div>
+</div>
+</div>
+  </div>
+
+  </div>
+
+
+
+  </form>
+
 </div>
 </div>
 </div>
+</div>
+
+
+
+
+
+
+
+      
+
+
+
+    
+
+    </div>
+  </div>
+
+
+
+</section>
+
+
+
+
+<!--footer-->
+
+ <footer>
+            <!-- Creates an inline element -->
+            <a href="https://www.facebook.com/jovin.basco.16"><img src="fb.png" class="fb-logo"></a>
+            <span>|</span>
+            <span><a href="https://www.instagram.com/invites/contact/?i=1urvfjtvaztre&utm_content=k5r65c6"><img src="insta.png" class="insta-logo"></a></span>
+            <span>|</span>
+            <span>&copy; Jovin basco. All Rights Reserved</span>
+        </footer>
+
+
 
 
 

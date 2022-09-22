@@ -4,3 +4,83 @@
 	box-sizing: border-box;
 }
 
+body{
+	background: skyblue;
+	font-family: "open-san";
+}
+
+.fb-logo{
+	width: 20px;
+	height: 20px;
+}
+
+.insta-logo{
+	width: 20px;
+	height: 20px;
+}
+
+
+footer{
+	text-align: center;
+	width: 100%;
+	background: rgb(237, 237, 233);
+}
+#bg-image .container {
+	max-width: 1344px;
+    width: 1344px;
+    padding: 50px 0;
+}
+
+#bg-image .container .title {
+	margin-top: 1.4rem;
+	font-size: 40px;
+    font-family: 'Zilla Slab',serif;
+    font-weight: 600;
+    color: #fff;
+    text-align: right;
+    width: 65%;
+    margin-left: auto;
+    padding-bottom: 1.33rem;
+}
+
+#bg-image .container .subtitle {
+	font-size: 19px;
+    font-family: "Open Sans";
+    color: #fff;
+    text-align: right;
+    width: 50%;
+    margin-left: auto;
+    margin-top: -1.25rem;
+}
+
+#bg-image {
+    padding-top: 50px;
+    background: url("welcome.jpg");
+    background-size: relative;
+
+    background-repeat: no-repeat;
+    min-height: 544px;
+    background-size: cover;
+    background-repeat: no-repeat!important;
+    background-position: auto !important;
+    background-color: #000;
+    vertical-align: middle;
+    position: relative;
+}
+
+#bg-image .front-bg {
+	position: relative;
+    min-height: 315px;
+    }
+
+#basco .basjov{
+	padding: 50px;
+	width: 30rem;
+	height: 30rem;
+	border-radius: 50%;
+
+}
+
+#basco{
+	padding: 50px;
+}

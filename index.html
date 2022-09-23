@@ -18,7 +18,7 @@
 
 	<!--header-->
 		<div class="container-fluid">
-		<nav class="navbar navbar-expand-xl navbar-light">
+		<nav class="navbar navbar-expand-xl navbar-primary col-12">
 			<a class="navbar-brand" href="index.html">
       <img src="file:///C:/Users/IKAY/batch-221/Capstone-1-basco/cropped-JB-logo-transparent.webp" alt="" width="30" height="24">
     </a>
@@ -29,16 +29,19 @@
      <div class="collapse navbar-collapse" id="toggleMobileMenu">
       <ul class="navbar-nav ms-auto text-center">
         <li>
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="index.html">Home</a>
         </li>
         <li>
-          <a class="nav-link" href="#">Feature</a>
+          <a class="nav-link" href="#feature">Feature</a>
         </li>
         <li>
-          <a class="nav-link" href="#">Photo</a>
+          <a class="nav-link" href="#Project">Project</a>
         </li>
         <li>
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contact</button>
         </li>
       </ul>
 
@@ -48,17 +51,17 @@
 </div>
 
 <section id="bg-image">
- 
+
 </section>
 
 <section id="basco">
   <div class="container">
     <div class="row justify-content-evenly">
-      <div class="col-lg-6">
+      <div class="col-12 col-md-6 col-lg-4">
   <img class="basjov" src="P_20200909_174720_BF_p.jpg">
 </div>
 
-<div class="col-lg-6 text-center p-6">
+<div class="col-12 col-md-6 col-lg-4 text-center p-6">
 <p>I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen. I like to see the sunrise in the morning, I like to see the moonlight at night; I like to feel the music flowing on my face, I like to smell the wind coming from the ocean. I like to look at the clouds in the sky with a blank mind, I like to do thought experiment when I cannot sleep in the middle of the night. I like flowers in spring, rain in summer, leaves in autumn, and snow in winter. I like to sleep early, I like to get up late; I like to be alone, I like to be surrounded by people. I like country’s peace, I like metropolis’ noise; I like the beautiful west lake in Hangzhou, I like the flat cornfield in Champaign. I like delicious food and comfortable shoes; I like good books and romantic movies. I like the land and the nature, I like people. And, I like to laugh.</p>
 </div>
 </div>
@@ -68,10 +71,10 @@
 
 </section>
 
-<section>
-  <div class="container">
-    <div class="row justify-content-evenly">
-      <div class="col-lg-6">
+<section id="about">
+  <div class="container-fluid">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-6 col-lg-4">
 <div class="accordion" id="jovin">
 <div class="accordion-item">
   <h2 class="accordion-header" id="headerOne">
@@ -186,119 +189,160 @@
 </div>
 
 
-
-
-
-<div class="accordion-item">
-  <h2 class="accordion-header" id="headerFour">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Contact Me
-    </button>
-  </h2>
-<div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headerFour" data-bs-parent="#jovin">
-      <div class="accordion-body">
-
-
-        <div class="container-lg-6 bg-primary">
-  <form class="row g-3 p-0 bg-primary">
-
-    <!--name-->
-    <div class="row justify-content-center text-center">
-      <div class="col-md-6 p-0">
-        <label for="first-name" class="form-label text-center">Name</label>
-    <input type="text" class="form-control" placeholder="YOUR NAME" aria-label="First name">
-  </div>
-        
-      </div>
-      <div class="row justify-content-center text-center">
-      <div class="col-md-6 p-0">
-        <label for="email-add" class="form-label text-center">Email address</label>
-    <input type="text" class="form-control" placeholder="name@example.com" aria-label="First name">
-  </div>
-        
-      </div>
-
-      <div class="row justify-content-center text-center">
-      <div class="col-md-6 p-0">
-        <label for="first-name" class="form-label text-center">Contact number</label>
-    <input type="text" class="form-control" placeholder="+63 900 000 0000" aria-label="First name">
-  </div>
-        
-      </div> 
-
-      <div class="row justify-content-center text-center">
-      <div class="col-md-6 p-0">
-        <label for="inputState" class="form-label">Concern</label>
-    <select id="inputState" class="form-select">
-      <option selected>Quotation...</option>
-      <option>...</option>
-    </select>
-
-      </div>
-    </div>
-
-    <div class="row justify-content-center text-center">
-      <div class="col-md-6 p-0">
-        <label for="floatingTextarea2">Message</label>
-        <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px"></textarea>
-  
-
-
-      </div>
-    </div>
-
-             <div class="col-12 text-center">
-    <button type="submit" class="btn btn-dark" data-bs-toogle="modal" data-bstarget="#examplemodal">send email
-</button>
-
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Email send</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
-
-    <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        
-      
-    </div>
-</div>
-</div>
-  </div>
-
-  </div>
-
-
-
-  </form>
-
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-      
-
-
-
-    
-
     </div>
   </div>
 
 
 
 </section>
+
+<section id="feature">
+  <div class="container p-5">
+    <div class="row">
+
+    
+      <h1 class="header">Skill Set</h1>
+    
+
+<div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img src="Understanding.jpg" class="skill" class="card-img-top">
+        <div class="card-body">
+        <h5 class="card-header">Understanding</h5>
+        <p class="card-text">Ability to deal with unsual situation or people.</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img src="creativity.jpg" class="skill" class="card-img-top">
+        <div class="card-body">
+        <h5 class="card-header">Creativity</h5>
+        <p class="card-text">creativity, the ability to make or otherwise bring into existence something new, whether a new solution to a problem, a new method or device, or a new artistic object or form.</p>
+      </div>
+    </div>
+  </div>
+
+
+<div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img src="adaptability.jpg" class="skill" class="card-img-top">
+
+        <div class="card-body">
+        <h5 class="card-header">adaptability</h5>
+        <p class="card-text">Adaptability is a person's ability to adjust to changes in their environment. When thinking about your career aspirations, changes have a direct effect on how flexible you can be.</p>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+    
+
+
+  </section>
+
+
+  <section id="Project">
+
+    <div class="container p-5">
+    <div class="row">
+
+    
+      <h1 class="header">Project</h1>
+    
+
+<div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img src="Programmer.jpg" class="skill" class="card-img-top">
+        <div class="card-body">
+        <h5 class="card-header">Programer </h5>
+        <p class="card-text">To create a application that compile all the dishes all around the world </p>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img src="travel.jpg" class="skill" class="card-img-top">
+        <div class="card-body">
+        <h5 class="card-header">Travel</h5>
+        <p class="card-text">Travel all around the world discover something new </p>
+      </div>
+    </div>
+  </div>
+
+
+<div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img src="leader.jpg" class="skill" class="card-img-top">
+
+        <div class="card-body">
+        <h5 class="card-header">Leadership</h5>
+        <p class="card-text">Leadership is the ability of an individual or a group of individuals to influence and guide followers or other members of an organization.</p>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+    
+
+
+  </section>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Jovin</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Full Name</label>
+            <input type="text" class="form-control" id="recipient-name" required autocomplete>
+          </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Contact Number</label>
+            <input type="text" class="form-control" id="recipient-name" required autocomplete>
+          </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Email</label>
+            <input type="text" class="form-control" id="recipient-name" required autocomplete>
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-1 btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="Submit" class="btn-2 btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  </section>
+
 
 
 
@@ -322,8 +366,7 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 

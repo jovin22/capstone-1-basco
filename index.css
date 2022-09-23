@@ -5,9 +5,22 @@
 }
 
 body{
-	background: skyblue;
+	background: #82bdc4;
 	font-family: "open-san";
 }
+
+.btn{
+	border: none;
+	background: none;
+	padding: 8px;
+	text-align: center;
+	outline: none;
+	color: #2674A1;
+}
+
+/*.nav-link{
+	color: darkviolet;
+}*/
 
 .fb-logo{
 	width: 20px;
@@ -54,12 +67,11 @@ footer{
 }
 
 #bg-image {
-    padding-top: 50px;
-    background: url("welcome.jpg");
+    padding-top: 0px;
+    background: url(welcome.jpg);
     background-size: relative;
-
     background-repeat: no-repeat;
-    min-height: 544px;
+    min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat!important;
     background-position: auto !important;
@@ -84,3 +96,47 @@ footer{
 #basco{
 	padding: 50px;
 }
+
+input{
+	size: 10;
+}
+
+/*section success info*/
+
+#succeed-info{
+	padding: 2rem 10% 3rem;
+}
+
+#succeed-info h2{
+	margin-bottom: 1rem;
+	/*this creates a space between the header and the card section*/
+}
+
+#succeed-info h3{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#succeed-info .card{
+	display: inline-block;
+	width: 30%;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	vertical-align: top;
+	min-height: 175px;
+	background-color: skyblue ;
+	border-style: none;
+}
+
+.header{
+	text-align: center;
+}
+
+/*.skill{
+	width: 15vw;
+	height: 35vh;
+	border-radius: 10%;
+
+}*/
+
+
